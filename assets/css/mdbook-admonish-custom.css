@@ -19,46 +19,6 @@
   -webkit-mask-repeat: no-repeat;
 }
 :root {
-  --md-admonition-icon--admonish-alert: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='0 -1 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>megaphone</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-204.000000, -308.000000)' fill='%23000000'><path d='M234,332 L227,327 L227,315 L234,310 L234,332 L234,332 Z M225,326 L222,326 L222,316 L225,316 L225,326 L225,326 Z M220,326 L212,326 C210.012,326 206,325.418 206,321 C206,316.582 209.946,315.935 212,316 L220,316 L220,326 L220,326 Z M215,335 C215,335.553 214.552,336 214,336 L213,336 C212.448,336 212,335.553 212,335 L212,328 L215,328 L215,335 L215,335 Z M234,308 L225,314 L212,314 C207.582,314 204,316.582 204,321 C204,324.733 206.542,327.339 210,328 C210.045,328.27 210,336 210,336 C210,337.104 210.896,338 212,338 L215,338 C216.104,338 217,337.104 217,336 L217,328 L225,328 L234,334 C235.104,334 236,333.104 236,332 L236,310 C236,308.896 235.104,308 234,308 L234,308 Z' id='megaphone' sketch:type='MSShapeGroup'></path></g></g></svg>");
-}
-
-:is(.admonition):is(.admonish-alert) {
-  border-color: #ff0505;
-}
-
-:is(.admonish-alert) > :is(.admonition-title, summary.admonition-title) {
-  background-color: rgba(255, 5, 5, 0.1);
-}
-:is(.admonish-alert) > :is(.admonition-title, summary.admonition-title)::before {
-  background-color: #ff0505;
-  mask-image: var(--md-admonition-icon--admonish-alert);
-  -webkit-mask-image: var(--md-admonition-icon--admonish-alert);
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-}
-:root {
-  --md-admonition-icon--admonish-demonstration: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='0 -1 28 28' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>align-left</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-308.000000, -206.000000)' fill='%23000000'><path d='M335,222 L309,222 C308.447,222 308,222.448 308,223 C308,223.553 308.447,224 309,224 L335,224 C335.553,224 336,223.553 336,223 C336,222.448 335.553,222 335,222 L335,222 Z M324,230 L309,230 C308.447,230 308,230.447 308,231 C308,231.553 308.447,232 309,232 L324,232 C324.553,232 325,231.553 325,231 C325,230.447 324.553,230 324,230 L324,230 Z M309,208 L335,208 C335.553,208 336,207.553 336,207 C336,206.448 335.553,206 335,206 L309,206 C308.447,206 308,206.448 308,207 C308,207.553 308.447,208 309,208 L309,208 Z M309,216 L327,216 C327.553,216 328,215.553 328,215 C328,214.448 327.553,214 327,214 L309,214 C308.447,214 308,214.448 308,215 C308,215.553 308.447,216 309,216 L309,216 Z' id='align-left' sketch:type='MSShapeGroup'></path></g></g></svg>");
-}
-
-:is(.admonition):is(.admonish-demonstration) {
-  border-color: #9e9e9e;
-}
-
-:is(.admonish-demonstration) > :is(.admonition-title, summary.admonition-title) {
-  background-color: rgba(158, 158, 158, 0.1);
-}
-:is(.admonish-demonstration) > :is(.admonition-title, summary.admonition-title)::before {
-  background-color: #9e9e9e;
-  mask-image: var(--md-admonition-icon--admonish-demonstration);
-  -webkit-mask-image: var(--md-admonition-icon--admonish-demonstration);
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-}
-:root {
   --md-admonition-icon--admonish-methode: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>settings</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-101.000000, -360.000000)' fill='%23000000'><path d='M128.52,381.134 L127.528,382.866 C127.254,383.345 126.648,383.508 126.173,383.232 L123.418,381.628 C122.02,383.219 120.129,384.359 117.983,384.799 L117.983,387 C117.983,387.553 117.54,388 116.992,388 L115.008,388 C114.46,388 114.017,387.553 114.017,387 L114.017,384.799 C111.871,384.359 109.98,383.219 108.582,381.628 L105.827,383.232 C105.352,383.508 104.746,383.345 104.472,382.866 L103.48,381.134 C103.206,380.656 103.369,380.044 103.843,379.769 L106.609,378.157 C106.28,377.163 106.083,376.106 106.083,375 C106.083,373.894 106.28,372.838 106.609,371.843 L103.843,370.232 C103.369,369.956 103.206,369.345 103.48,368.866 L104.472,367.134 C104.746,366.656 105.352,366.492 105.827,366.768 L108.582,368.372 C109.98,366.781 111.871,365.641 114.017,365.201 L114.017,363 C114.017,362.447 114.46,362 115.008,362 L116.992,362 C117.54,362 117.983,362.447 117.983,363 L117.983,365.201 C120.129,365.641 122.02,366.781 123.418,368.372 L126.173,366.768 C126.648,366.492 127.254,366.656 127.528,367.134 L128.52,368.866 C128.794,369.345 128.631,369.956 128.157,370.232 L125.391,371.843 C125.72,372.838 125.917,373.894 125.917,375 C125.917,376.106 125.72,377.163 125.391,378.157 L128.157,379.769 C128.631,380.044 128.794,380.656 128.52,381.134 L128.52,381.134 Z M130.008,378.536 L127.685,377.184 C127.815,376.474 127.901,375.749 127.901,375 C127.901,374.252 127.815,373.526 127.685,372.816 L130.008,371.464 C130.957,370.912 131.281,369.688 130.733,368.732 L128.75,365.268 C128.203,364.312 126.989,363.983 126.041,364.536 L123.694,365.901 C122.598,364.961 121.352,364.192 119.967,363.697 L119.967,362 C119.967,360.896 119.079,360 117.983,360 L114.017,360 C112.921,360 112.033,360.896 112.033,362 L112.033,363.697 C110.648,364.192 109.402,364.961 108.306,365.901 L105.959,364.536 C105.011,363.983 103.797,364.312 103.25,365.268 L101.267,368.732 C100.719,369.688 101.044,370.912 101.992,371.464 L104.315,372.816 C104.185,373.526 104.099,374.252 104.099,375 C104.099,375.749 104.185,376.474 104.315,377.184 L101.992,378.536 C101.044,379.088 100.719,380.312 101.267,381.268 L103.25,384.732 C103.797,385.688 105.011,386.017 105.959,385.464 L108.306,384.099 C109.402,385.039 110.648,385.809 112.033,386.303 L112.033,388 C112.033,389.104 112.921,390 114.017,390 L117.983,390 C119.079,390 119.967,389.104 119.967,388 L119.967,386.303 C121.352,385.809 122.598,385.039 123.694,384.099 L126.041,385.464 C126.989,386.017 128.203,385.688 128.75,384.732 L130.733,381.268 C131.281,380.312 130.957,379.088 130.008,378.536 L130.008,378.536 Z M116,378 C114.357,378 113.025,376.657 113.025,375 C113.025,373.344 114.357,372 116,372 C117.643,372 118.975,373.344 118.975,375 C118.975,376.657 117.643,378 116,378 L116,378 Z M116,370 C113.261,370 111.042,372.238 111.042,375 C111.042,377.762 113.261,380 116,380 C118.739,380 120.959,377.762 120.959,375 C120.959,372.238 118.739,370 116,370 L116,370 Z' id='settings' sketch:type='MSShapeGroup'></path></g></g></svg>");
 }
 
@@ -79,7 +39,27 @@
   -webkit-mask-repeat: no-repeat;
 }
 :root {
-  --md-admonition-icon--admonish-definition: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='-3 0 28 28' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>play</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-417.000000, -569.000000)' fill='%23000000'><path d='M418.983,594.247 L418.983,571.722 L436.831,582.984 L418.983,594.247 L418.983,594.247 Z M438.204,581.536 L419.394,569.279 C418.278,568.672 417,568.943 417,570.917 L417,595.052 C417,597.012 418.371,597.361 419.394,596.689 L438.204,584.433 C439.288,583.665 439.258,582.242 438.204,581.536 L438.204,581.536 Z' id='play' sketch:type='MSShapeGroup'></path></g></g></svg>");
+  --md-admonition-icon--admonish-alert: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='0 -1 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>megaphone</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-204.000000, -308.000000)' fill='%23000000'><path d='M234,332 L227,327 L227,315 L234,310 L234,332 L234,332 Z M225,326 L222,326 L222,316 L225,316 L225,326 L225,326 Z M220,326 L212,326 C210.012,326 206,325.418 206,321 C206,316.582 209.946,315.935 212,316 L220,316 L220,326 L220,326 Z M215,335 C215,335.553 214.552,336 214,336 L213,336 C212.448,336 212,335.553 212,335 L212,328 L215,328 L215,335 L215,335 Z M234,308 L225,314 L212,314 C207.582,314 204,316.582 204,321 C204,324.733 206.542,327.339 210,328 C210.045,328.27 210,336 210,336 C210,337.104 210.896,338 212,338 L215,338 C216.104,338 217,337.104 217,336 L217,328 L225,328 L234,334 C235.104,334 236,333.104 236,332 L236,310 C236,308.896 235.104,308 234,308 L234,308 Z' id='megaphone' sketch:type='MSShapeGroup'></path></g></g></svg>");
+}
+
+:is(.admonition):is(.admonish-alert) {
+  border-color: #ff0505;
+}
+
+:is(.admonish-alert) > :is(.admonition-title, summary.admonition-title) {
+  background-color: rgba(255, 5, 5, 0.1);
+}
+:is(.admonish-alert) > :is(.admonition-title, summary.admonition-title)::before {
+  background-color: #ff0505;
+  mask-image: var(--md-admonition-icon--admonish-alert);
+  -webkit-mask-image: var(--md-admonition-icon--admonish-alert);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+:root {
+  --md-admonition-icon--admonish-definition: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='-2 0 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>clipboard</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-466.000000, -99.000000)' fill='%23000000'><path d='M487,113 L473,113 C472.447,113 472,113.448 472,114 C472,114.553 472.447,115 473,115 L487,115 C487.553,115 488,114.553 488,114 C488,113.448 487.553,113 487,113 L487,113 Z M492,127 C492,128.104 491.104,129 490,129 L470,129 C468.896,129 468,128.104 468,127 L468,107 C468,105.896 468.896,105 470,105 L473,105 L473,109 L487,109 L487,105 L490,105 C491.104,105 492,105.896 492,107 L492,127 L492,127 Z M475,103 L477.223,103 C477.223,101.896 478.466,101 480,101 C481.534,101 482.777,101.896 482.777,103 L485,103 L485,107 L475,107 L475,103 L475,103 Z M490,103 L487,103 L487,101 L484.307,101 C483.44,99.81 481.846,99 480,99 C478.154,99 476.56,99.81 475.693,101 L473,101 L473,103 L470,103 C467.791,103 466,104.791 466,107 L466,127 C466,129.209 467.791,131 470,131 L490,131 C492.209,131 494,129.209 494,127 L494,107 C494,104.791 492.209,103 490,103 L490,103 Z M487,123 L473,123 C472.447,123 472,123.448 472,124 C472,124.553 472.447,125 473,125 L487,125 C487.553,125 488,124.553 488,124 C488,123.448 487.553,123 487,123 L487,123 Z M487,118 L473,118 C472.447,118 472,118.448 472,119 C472,119.553 472.447,120 473,120 L487,120 C487.553,120 488,119.553 488,119 C488,118.448 487.553,118 487,118 L487,118 Z' id='clipboard' sketch:type='MSShapeGroup'></path></g></g></svg>");
 }
 
 :is(.admonition):is(.admonish-definition) {
@@ -99,7 +79,7 @@
   -webkit-mask-repeat: no-repeat;
 }
 :root {
-  --md-admonition-icon--admonish-propriete: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='-2 0 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>multiple-documents-files</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-206.000000, -99.000000)' fill='%23000000'><path d='M229,107 C227.935,107 227,105.065 227,104.026 L227,101.031 L227,101.029 L232,107 L229,107 L229,107 Z M232,123 C232,124.019 231.05,125 230,125 L215,125 C213.95,125 213,124.019 213,123 L213,103 C213,101.981 213.95,101 215,101 L225,101 C224.984,103.304 225,105.025 225,105.025 C225,107.103 226.87,109 229,109 L232,109 L232,123 L232,123 Z M225,129 L210,129 C208.95,129 208,128.019 208,127 L208,107 C208,105.981 208.855,105.032 209.905,105.032 L211,105 L211,123 C211,125.059 212.884,127 215,127 L227,127 C227,128.019 226.049,129 225,129 L225,129 Z M227,99 L215,99 C212.884,99 211,100.941 211,103 L209.845,103.027 C207.729,103.027 206,104.941 206,107 L206,127 C206,129.059 207.884,131 210,131 L225,131 C227.116,131 229,129.059 229,127 L230,127 C232.116,127 234,125.059 234,123 L234,107.023 L227,99 L227,99 Z M227,113.018 L218,113.018 C217.448,113.018 217,113.465 217,114.017 C217,114.568 217.448,115.016 218,115.016 L227,115.016 C227.552,115.016 228,114.568 228,114.017 C228,113.465 227.552,113.018 227,113.018 L227,113.018 Z M227,118.013 L218,118.013 C217.448,118.013 217,118.46 217,119.012 C217,119.563 217.448,120.011 218,120.011 L227,120.011 C227.552,120.011 228,119.563 228,119.012 C228,118.46 227.552,118.013 227,118.013 L227,118.013 Z' id='multiple-documents-files' sketch:type='MSShapeGroup'></path></g></g></svg>");
+  --md-admonition-icon--admonish-propriete: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='0 0 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>preferences</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-152.000000, -359.000000)' fill='%23000000'><path d='M182,387 C182,388.104 181.104,389 180,389 L156,389 C154.896,389 154,388.104 154,387 L154,363 C154,361.896 154.896,361 156,361 L180,361 C181.104,361 182,361.896 182,363 L182,387 L182,387 Z M180,359 L156,359 C153.791,359 152,360.791 152,363 L152,387 C152,389.209 153.791,391 156,391 L180,391 C182.209,391 184,389.209 184,387 L184,363 C184,360.791 182.209,359 180,359 L180,359 Z M172,378.4 C170.674,378.4 169.6,377.325 169.6,376 C169.6,374.675 170.674,373.6 172,373.6 C173.326,373.6 174.4,374.675 174.4,376 C174.4,377.325 173.326,378.4 172,378.4 L172,378.4 Z M178,375 L175.858,375 C175.413,373.277 173.862,372 172,372 C170.138,372 168.588,373.277 168.142,375 L158,375 C157.448,375 157,375.448 157,376 C157,376.553 157.448,377 158,377 L168.142,377 C168.587,378.723 170.138,380 172,380 C173.862,380 175.413,378.723 175.858,377 L178,377 C178.552,377 179,376.553 179,376 C179,375.448 178.552,375 178,375 L178,375 Z M163,370.4 C161.674,370.4 160.6,369.325 160.6,368 C160.6,366.675 161.674,365.601 163,365.601 C164.326,365.601 165.4,366.675 165.4,368 C165.4,369.325 164.326,370.4 163,370.4 L163,370.4 Z M178,367 L166.858,367 C166.413,365.277 164.862,364 163,364 C161.138,364 159.587,365.277 159.142,367 L158,367 C157.448,367 157,367.448 157,368 C157,368.553 157.448,369 158,369 L159.142,369 C159.587,370.723 161.138,372 163,372 C164.862,372 166.413,370.723 166.858,369 L178,369 C178.552,369 179,368.553 179,368 C179,367.448 178.552,367 178,367 L178,367 Z M163,386.4 C161.674,386.4 160.6,385.325 160.6,384 C160.6,382.675 161.674,381.601 163,381.601 C164.326,381.601 165.4,382.675 165.4,384 C165.4,385.325 164.326,386.4 163,386.4 L163,386.4 Z M178,383 L166.858,383 C166.413,381.278 164.862,380 163,380 C161.138,380 159.587,381.278 159.142,383 L158,383 C157.448,383 157,383.447 157,384 C157,384.553 157.448,385 158,385 L159.142,385 C159.587,386.723 161.138,388 163,388 C164.862,388 166.413,386.723 166.858,385 L178,385 C178.552,385 179,384.553 179,384 C179,383.447 178.552,383 178,383 L178,383 Z' id='preferences' sketch:type='MSShapeGroup'></path></g></g></svg>");
 }
 
 :is(.admonition):is(.admonish-propriete) {
@@ -133,6 +113,26 @@
   background-color: #64dd17;
   mask-image: var(--md-admonition-icon--admonish-exemple);
   -webkit-mask-image: var(--md-admonition-icon--admonish-exemple);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+:root {
+  --md-admonition-icon--admonish-demonstration: url("data:image/svg+xml;charset=utf-8,<?xml version='1.0' encoding='UTF-8' standalone='no'?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg width='800px' height='800px' viewBox='0 -1 28 28' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>align-left</title><desc>Created with Sketch Beta.</desc><defs></defs><g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'><g id='Icon-Set' sketch:type='MSLayerGroup' transform='translate(-308.000000, -206.000000)' fill='%23000000'><path d='M335,222 L309,222 C308.447,222 308,222.448 308,223 C308,223.553 308.447,224 309,224 L335,224 C335.553,224 336,223.553 336,223 C336,222.448 335.553,222 335,222 L335,222 Z M324,230 L309,230 C308.447,230 308,230.447 308,231 C308,231.553 308.447,232 309,232 L324,232 C324.553,232 325,231.553 325,231 C325,230.447 324.553,230 324,230 L324,230 Z M309,208 L335,208 C335.553,208 336,207.553 336,207 C336,206.448 335.553,206 335,206 L309,206 C308.447,206 308,206.448 308,207 C308,207.553 308.447,208 309,208 L309,208 Z M309,216 L327,216 C327.553,216 328,215.553 328,215 C328,214.448 327.553,214 327,214 L309,214 C308.447,214 308,214.448 308,215 C308,215.553 308.447,216 309,216 L309,216 Z' id='align-left' sketch:type='MSShapeGroup'></path></g></g></svg>");
+}
+
+:is(.admonition):is(.admonish-demonstration) {
+  border-color: #9e9e9e;
+}
+
+:is(.admonish-demonstration) > :is(.admonition-title, summary.admonition-title) {
+  background-color: rgba(158, 158, 158, 0.1);
+}
+:is(.admonish-demonstration) > :is(.admonition-title, summary.admonition-title)::before {
+  background-color: #9e9e9e;
+  mask-image: var(--md-admonition-icon--admonish-demonstration);
+  -webkit-mask-image: var(--md-admonition-icon--admonish-demonstration);
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-size: contain;
