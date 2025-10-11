@@ -1,6 +1,6 @@
 # md-math
 
-On teste `md-book`
+On teste [`md-book`](https://rust-lang.github.io/mdBook/)
 
 ## Install
 
