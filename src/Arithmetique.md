@@ -165,7 +165,7 @@ Montrons que le produit de deux entiers consécutifs est un nombre pair.
 
 Soit deux entiers consécutifs $~\textcolor{red}{n}$ et $\textcolor{blue}{n+1}$.
 
-Si $n$ est **pair**, alors il s'écrit sous la forme $~n=2k~$, avec $k$ entier.
+Si $n$ est **pair**, alors il s'écrit sous la forme $n=2k$, avec $k$ entier.
 
 Alors le produit des deux entiers consécutifs s'écrit :
 
