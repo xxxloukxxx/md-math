@@ -1,8 +1,8 @@
 # md-math
 
+## Why ?
+
 On teste [`md-book`](https://rust-lang.github.io/mdBook/)
-
-
 
 ## Install
 
