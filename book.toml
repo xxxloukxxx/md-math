@@ -1,0 +1,82 @@
+[book]
+authors = ["Cédric TODARO"]
+language = "fr"
+src = "src"
+title = "Math - 2nde"
+
+[preprocessor]
+
+[preprocessor.emojicodes]
+# https://gist.github.com/rxaviers/7360908#file-gistfile1-md
+
+[preprocessor.image-size]
+command = "mdbook-image-size"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
+
+# https://www.svgrepo.com/collection/bigmug-interface-icons/
+
+[[preprocessor.admonish.custom]]
+directive = "definition"
+title = "Définition"
+icon = "./assets/svg/def.svg"
+color = "#448aff"
+aliases = ["def", "defi"]
+
+[[preprocessor.admonish.custom]]
+directive = "propriete"
+title = "Propriété"
+icon = "./assets/svg/prop.svg"
+color = "#00bfa5"
+aliases = ["prop", "propr"]
+
+[[preprocessor.admonish.custom]]
+directive = "exemple"
+title = "Exemple"
+icon = "./assets/svg/ex.svg"
+color = "#64dd17"
+aliases = ["ex", "exmpl"]
+
+[[preprocessor.admonish.custom]]
+directive = "demonstration"
+title = "Démonstration"
+icon = "./assets/svg/demo.svg"
+color = "#9e9e9e"
+aliases = ["demo", "preuve"]
+
+[[preprocessor.admonish.custom]]
+directive = "methode"
+title = "Méthode"
+icon = "./assets/svg/methode.svg"
+color = "#ff5252"
+aliases = ["meth", "method"]
+
+[[preprocessor.admonish.custom]]
+directive = "remarque"
+title = "Remarque"
+icon = "./assets/svg/rem.svg"
+color = "#ff9100"
+aliases = ["rem", "remark"]
+
+[[preprocessor.admonish.custom]]
+directive = "alert"
+title = "Attention"
+icon = "./assets/svg/alert.svg"
+color = "#ff0505"
+aliases = ["attention", "alerte"]
+
+[output]
+
+[output.html]
+additional-css = ["./assets/css/mdbook-admonish.css", "./assets/css/mdbook-admonish-custom.css"]
+additional-js = ["./assets/js/mathjax.js", "./assets/js/mermaid.min.js", "./assets/js/mermaid-init.js"]
+no-section-label = true
