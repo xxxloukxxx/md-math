@@ -2,7 +2,7 @@
 #
 # To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
 #
-name: Deploy mon md-math stp
+name: Deployyyyyyyyy .....
 
 on:
   # Runs on pushes targeting the default branch
@@ -28,14 +28,12 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      MDBOOK_VERSION: 0.4.36
+    # env:
+    #   MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
         run: |
-          curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
-          rustup update
           mkdir ~/tools
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook -P ~/tools
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-admonish -P ~/tools
@@ -45,14 +43,13 @@ jobs:
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-toc -P ~/tools
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-emojicodes -P ~/tools
           chmod +x ~/tools/mdbook
+          chmod +x ~/tools/mdbook-admonish
+          chmod +x ~/tools/mdbook-image-size
+          chmod +x ~/tools/mdbook-mermaid
+          chmod +x ~/tools/mdbook-utils
+          chmod +x ~/tools/mdbook-toc
+          chmod +x ~/tools/mdbook-emojicodes
           echo ~/tools >> $GITHUB_PATH
-      #     cargo install mdbook
-      #     cargo install mdbook-admonish
-      #     cargo install mdbook-image-size
-      #     cargo install mdbook-mermaid
-      #     cargo install mdbook-utils
-      #     cargo install mdbook-toc
-      #     cargo install mdbook-emojicodes
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
