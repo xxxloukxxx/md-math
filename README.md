@@ -1,1 +1,14 @@
 # md-math
+
+On teste `md-book`
+
+## Install
+
+```bash
+cargo install mdbook
+cargo install mdbook-admonish
+cargo install mdbook-image-size
+cargo install mdbook-mermaid
+cargo install mdbook-toc
+cargo install mdbook-emojicodes
+```
