@@ -44,6 +44,7 @@ jobs:
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-utils -P ~/tools
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-toc -P ~/tools
           wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-emojicodes -P ~/tools
+          chmod +x ~/tools/mdbook
           echo ~/tools >> $GITHUB_PATH
       #     cargo install mdbook
       #     cargo install mdbook-admonish
