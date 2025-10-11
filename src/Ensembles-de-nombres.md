@@ -4,10 +4,6 @@
 
 ## Les entiers
 
-```admonish def
-plop
-```
-
 ```admonish rem
 Dans le lycée, il y a un ensemble d'**humains**.
 

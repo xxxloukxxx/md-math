@@ -12,5 +12,6 @@ cargo install mdbook-admonish
 cargo install mdbook-image-size
 cargo install mdbook-mermaid
 cargo install mdbook-toc
+cargo install mdbook-utils
 cargo install mdbook-emojicodes
 ```
