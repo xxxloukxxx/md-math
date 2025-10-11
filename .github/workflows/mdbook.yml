@@ -32,10 +32,19 @@ jobs:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      # - name: Install mdBook
-      #   run: |
-      #     curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
-      #     rustup update
+      - name: Install mdBook
+        run: |
+          curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
+          rustup update
+          mkdir ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook -P ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-admonish -P ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-image-size -P ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-mermaid -P ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-utils -P ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-toc -P ~/tools
+          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-emojicodes -P ~/tools
+          echo ~/tools >> $GITHUB_PATH
       #     cargo install mdbook
       #     cargo install mdbook-admonish
       #     cargo install mdbook-image-size
