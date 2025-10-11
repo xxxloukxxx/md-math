@@ -2,7 +2,7 @@
 authors = ["Cédric TODARO"]
 language = "fr"
 src = "src"
-title = "Math - 2nde"
+title = "Math au lycée"
 
 [preprocessor]
 
