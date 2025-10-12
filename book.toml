@@ -6,6 +6,10 @@ title = "Math au lycée"
 
 [preprocessor]
 
+[preprocessor.index]
+
+[preprocessor.links]
+
 [preprocessor.emojicodes]
 # https://gist.github.com/rxaviers/7360908#file-gistfile1-md
 
@@ -77,6 +81,32 @@ aliases = ["attention", "alerte"]
 [output]
 
 [output.html]
+theme = "theme"
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
+mathjax-support = false
+no-section-label = false
+copy-fonts = true
 additional-css = ["./assets/css/mdbook-admonish.css", "./assets/css/mdbook-admonish-custom.css"]
 additional-js = ["./assets/js/mathjax.js", "./assets/js/mermaid.min.js", "./assets/js/mermaid-init.js"]
-no-section-label = true
+
+[output.html.fold]
+enable = true    # whether or not to enable section folding
+level = 0         # the depth to start folding
+
+[output.html.print]
+enable = false    # include support for printable output
+page-break = true # insert page-break after each chapter
+
+[output.html.search]
+enable = true            # enables the search feature
+limit-results = 30       # maximum number of search results
+teaser-word-count = 30   # number of words used for a search result teaser
+use-boolean-and = true   # multiple search terms must all match
+boost-title = 2          # ranking boost factor for matches in headers
+boost-hierarchy = 1      # ranking boost factor for matches in page names
+boost-paragraph = 1      # ranking boost factor for matches in text
+expand = true            # partial words will match longer terms
+heading-split-level = 3  # link results to heading levels
+copy-js = true           # include Javascript code for search
