@@ -29,10 +29,7 @@ $$\Z = \left\\{...;−3 ; −2 ; −1 ; 0 ;1 ;2 ;3 ;...\right\\}$$
 ```
 
 ```admonish ex
-
 $\qquad 14\in\Z\qquad\qquad-4 \in \Z\qquad\qquad0.33\notin\Z$
-
-![](img/arith/01.png =500x center)
 ```
 
 ## Multiples et diviseurs
@@ -55,6 +52,8 @@ On dit alors que $b$ est un **diviseur** de $a$.
 - $7$ est un **diviseur** de $21$ car $21=7\times 3\qquad$ ...et $21$ est **multiple** de $7$
 
 - $5$ n'est pas un **multiple** de $17$ car il n'existe pas **d'entier** $k$ tel que $17=k\times 5$
+
+![](img/arith/01.png =500x center)
 ```
 
 ### Somme de deux multiples
@@ -125,8 +124,8 @@ Donc $S = 3k$, avec $k$ entier $\quad\Rightarrow S$ est un multiple 3.
 ### Propriétés : pair / impair
 
 ```admonish prop
-- Un nombre **pair** s'écrit sous la forme $~(2k)\qquad$, avec $k$ entier.
-- Un nombre **impair** s'écrit sous la forme $~(2k+1)\qquad$, avec $k$ entier.
+- Un nombre **pair** s'écrit sous la forme $~(2k)\quad$, avec $k$ entier.
+- Un nombre **impair** s'écrit sous la forme $~(2k+1)\quad$, avec $k$ entier.
 ```
 
 ### Carré d'un nombre impair
