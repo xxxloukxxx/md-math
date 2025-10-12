@@ -7,7 +7,7 @@
 # 2$^\text{nde}$
 
 - [Nombres et calculs](./2nde/_nombres-et-calculs.md)
-  - [Calcul algébrique](./2nde/Calcul-algebrique.md)
+  - [Calcul numérique et algébrique](./2nde/Calcul-algebrique.md)
   - [Ensembles de nombres](./2nde/Ensembles-de-nombres.md)
   - [Proportion et évolution](./2nde/Proportion-evolution.md)
   - [Arithmétique](./2nde/Arithmetique.md)
