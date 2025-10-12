@@ -35,13 +35,13 @@ jobs:
       - name: Install mdBook
         run: |
           mkdir ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook -P ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-admonish -P ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-image-size -P ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-mermaid -P ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-utils -P ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-toc -P ~/tools
-          wget https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-emojicodes -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-admonish -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-image-size -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-mermaid -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-utils -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-toc -P ~/tools
+          wget -q https://raw.githubusercontent.com/xxxloukxxx/md-math/refs/heads/main/.bin/mdbook-emojicodes -P ~/tools
           chmod +x ~/tools/mdbook
           chmod +x ~/tools/mdbook-admonish
           chmod +x ~/tools/mdbook-image-size
