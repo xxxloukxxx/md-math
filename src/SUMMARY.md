@@ -32,6 +32,20 @@
 
 # 1$^\text{ère}~$ Spécialité
 
+- [Analyse](./1spe/_analyse.md)
+  - [Fonctions du 2nd degré](./1spe/Fonctions-2nd-degre.md)
+  - [Nombre dérivé](./1spe/Derivation-1.md)
+  - [Fonction dérivée](./1spe/Derivation-2.md)
+  - [Fonction exponentielles](./1spe/Fonction-exponentielle.md)
+  - [Suites numériques](./1spe/Suites-numeriques.md)
+- [Géométrie](./1spe/_geometrie.md)
+  - [Produit scalaire](./1spe/Produit-scalaire.md)
+  - [Géométrie repérée](./1spe/Geometrie-reperee.md)
+  - [Trigonométrie](./1spe/Trigonometrie.md)
+- [Probabilité](./1spe/_proba.md)
+  - [Probabilité conditionnelle](./1spe/Probabilite-conditionnelle.md)
+  - [Variable aléatoire](./1spe/Variable-aleatoire.md)
+
 ---
 
 # Sandbox
