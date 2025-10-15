@@ -62,6 +62,7 @@ MathJax = {
         \nc{\brack}[1]{\left[#1\right]}
         \nc{\coord}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
         \nc{\coordl}[2]{\left(#1~;~#2\right)}
+        \nc{\overarc}[1]{\overset{\huge\frown}{#1}}
         \rnc{\iff}{\Leftrightarrow}
         \nc{\Lrarr}{\Leftrightarrow}
         \nc{\Rarr}{\Rightarrow}
