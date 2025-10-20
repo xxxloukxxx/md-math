@@ -2,7 +2,9 @@
 
 <!-- toc -->
 
-## Définition
+## Variable aléatoire 
+
+### Définition
 
 ```admonish ex
 Soit l'expérience aléatoire : "On lance un dé à six faces et on regarde le résultat."
@@ -69,7 +71,7 @@ $$
 ```
 
 ```admonish def Title="Définition : Loi de probabilité de $X$"
-Soit une variable aléatoire $X$ définie sur un univers $\Omega$ et prenant les valeurs $~x_1~$, $~x_2~$, $~x_3~$, $\ldots$, $~x_n~$.
+Soit une variable aléatoire $X$ définie sur un univers $\Omega$ et prenant les valeurs $x_1$, $x_2 $, $ x_3 $, $\ldots$, $ x_n $.
 
 La loi de probabilité de $X$ associe à toute valeur $x_i$ la probabilité $P(X=x_i)$
 
