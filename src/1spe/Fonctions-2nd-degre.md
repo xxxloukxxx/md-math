@@ -1,1 +1,1 @@
-# Fonctions du 2nd degré
+# Fonctions du 2<sup>nd</sup> degré

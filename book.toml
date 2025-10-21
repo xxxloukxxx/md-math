@@ -44,6 +44,13 @@ color = "#00bfa5"
 aliases = ["prop", "propr"]
 
 [[preprocessor.admonish.custom]]
+directive = "theoreme"
+title = "Théorème"
+icon = "./assets/svg/alert2.svg"
+color = "#8a44ff"
+aliases = ["th", "theo"]
+
+[[preprocessor.admonish.custom]]
 directive = "exemple"
 title = "Exemple"
 icon = "./assets/svg/ex.svg"
@@ -77,6 +84,7 @@ title = "Attention"
 icon = "./assets/svg/alert.svg"
 color = "#ff0505"
 aliases = ["attention", "alerte"]
+
 
 [output]
 

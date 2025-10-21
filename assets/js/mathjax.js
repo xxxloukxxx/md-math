@@ -68,6 +68,8 @@ MathJax = {
         \nc{\Lrarr}{\Leftrightarrow}
         \nc{\Rarr}{\Rightarrow}
         \nc{\rarr}{\rightarrow}
+        \nc{\Larr}{\Leftarrow}
+        \nc{\larr}{\leftarrow}
         \nc{\tc}{\textcolor}
         \let\ol\overline
         \nc{\vec}[1]{\overrightarrow{#1}}

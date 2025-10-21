@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-## Rappels de 2<sup>nde<sup>
+## Rappels de 2<sup>nde</sup>
 
 ![](img/proba/01.png =250x center)
 
