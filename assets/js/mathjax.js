@@ -73,6 +73,7 @@ MathJax = {
         \nc{\tc}{\textcolor}
         \nc{\minzero}{\setminus{\lbrace 0\rbrace}}
         \let\ol\overline
+        \nc{\vv}[1]{\overrightarrow{#1}}
         \nc{\vec}[1]{\overrightarrow{#1}}
         \nc{\OIJ}{\left(O;I,J\right)}
         \nc{\vOIJ}{\left(O;\vec{i},\vec{j}\right)}

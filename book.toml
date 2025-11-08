@@ -96,7 +96,7 @@ smart-punctuation = true
 mathjax-support = false
 no-section-label = true
 copy-fonts = true
-additional-css = ["./assets/css/mdbook-admonish.css", "./assets/css/mdbook-admonish-custom.css"]
+additional-css = ["./assets/css/mdbook-admonish.css", "./assets/css/mdbook-admonish-custom.css", "./assets/css/custom.css"]
 additional-js = ["./assets/js/mathjax.js", "./assets/js/mermaid.min.js", "./assets/js/mermaid-init.js"]
 
 [output.html.fold]

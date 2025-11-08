@@ -1,0 +1,3 @@
+img[src*='#right'] {
+    float: right;
+}

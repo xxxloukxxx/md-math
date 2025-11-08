@@ -25,6 +25,18 @@ $$
 
 ![](https://picsum.photos/800/600 =400x center)
 
+
+````admonish
+![](https://picsum.photos/800/600#right =400x)
+
+Pour aligner à droite :
+
+```
+![](https://picsum.photos/800/600#right =400x)
+```
+
+````
+
 ### Du code
 
 ```python
