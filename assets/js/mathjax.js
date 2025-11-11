@@ -43,6 +43,7 @@ MathJax = {
         \let\ge\geqslant
         \let\geq\geqslant
         \let\cbox\colorbox
+        \let\div\divisionsymbol
         \nc{\N}{\mathbb{N}}
         \nc{\Z}{\mathbb{Z}}
         \nc{\D}{\mathbb{D}}
