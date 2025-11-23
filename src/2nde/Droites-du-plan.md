@@ -4,7 +4,7 @@
 
 ## Vecteur directeur d'une droite
 
-### Définition : Vecteur directeur
+### Vecteur directeur
 
 ```admonish def
 $\mathcal{D}$ est une droite du plan.
@@ -38,7 +38,7 @@ On a : $\tc{red}{\vec{a}}\coord{1}{2}$ ou $\tc{red}{\vec{b}}\coord{2}{4}$ ou enc
 
 ## Équation cartésienne d'une droite
 
-### Définition et théorème : Équation cartésienne
+### Définition et théorème
 
 ```admonish th
 Toute droite $\mathcal{D}$ admet une équation de la forme $$ax + by + c =0$$ avec $a\neq0$ et $b\neq0$.
@@ -61,7 +61,7 @@ Alors $\tc{green}{\vec{u}\coord{5}{4}}$ est un **vecteur directeur** de $(d)$.
 ### Théorème réciproque
 
 ```admonish th
-L'ensemble des points $M\left(x ; y\right)$ tels que $$ax + by + c =0$$ avec $\left( a\ ;b \right) \neq \left(0\ ;0 \right)$ est une droite $\mathcal{D}$ de vecteur directeur $\vec{u}\coord{-b}{a}$.
+L'ensemble des points $M\left(x ; y\right)$ tels que $$ax + by + c =0$$ avec $\left( a\ ;b \right) \neq \left(0\ ;0 \right)$, est une droite $\mathcal{D}$ de vecteur directeur $\vec{u}\coord{-b}{a}$.
 ```
 
 ```admonish meth Title="Méthode : Déterminer une équation cartésienne à partir d'un point et d'un vecteur directeur"
@@ -160,7 +160,7 @@ $$
 $$
 ```
 
-### Propriété : Équation réduite
+### Équation réduite
 
 ```admonish prop
 ![](img/droites/12.png#right =200x)
@@ -279,7 +279,7 @@ Donc $\quad y_B =7\times x_B-3\quad\Rarr\quad$ Le point $B$ appartient à $(d)$.
 Pour démontrer que $A$, $B$ et $C$ sont alignés, il suffit de montrer que le point $A$ vérifie l'équation de la droite $(BC)$.
 ```
 
-### Propriété : coefficient directeur
+### Coefficient directeur
 
 ```admonish prop
 Si $\quad A\coordl{x_{A}}{y_{A}}\quad$ et $\quad B\coordl{x_{B}}{y_{B}}\quad$ sont deux points distincts d'une droite $\mathcal{D}$ tel que $x_{A} \neq x_{B}$ alors la droite $\mathcal{D}$ a pour **pente** (ou **coefficient directeur**) :
@@ -328,7 +328,7 @@ Une équation de $(d)$ est donc : $y = -6x +23$
 
 ## Position relative de deux droites
 
-### Propriété : À partir l'aide de l'équation cartésienne
+### À partir l'aide de l'équation cartésienne
 
 ```admonish prop
 Dire que $(D)$ et $(D')$ sont parallèles entre-elles équivaut à dire qu'elles ont des **vecteurs directeurs colinéaires**.
@@ -347,7 +347,7 @@ $$\det\left(\vec{u};\vec{v}\right)=\left|\begin{matrix}10&-15\\\\6&-9\\\\\end{ma
 Donc $\vec{u}$ et $\vec{v}$ sont colinéaires et $(d_1)\parallel(d_2)$.
 ```
 
-### Propriété : À partir l'aide de l'équation réduite
+### À partir l'aide de l'équation réduite
 
 ```admonish prop
 Soit $(D)$ et $(D')$ deux droites non parallèles à l'axe des ordonnées.
@@ -392,7 +392,7 @@ Les droites $(d_1)$ et $(d_3)$ sont **sécantes**.
 
 ## Projeté orthogonal d'un point sur une droite
 
-### Définition : Projeté orthogonal
+### Projeté orthogonal
 
 ```admonish def
 Soit une droite $(d)$ et un point $M$ du plan.
@@ -402,7 +402,7 @@ Le **projeté orthogonal** du point $M$ sur $(d)$ est le point d'intersection $H
 ![](img/droites/21.png =300x center)
 ```
 
-### Propriété : Distance minimale
+### Distance minimale
 
 ```admonish prop
 Le projeté orthogonal de $M$ sur $(d)$ est le point de la droite $(d)$ le plus proche du point $M$.

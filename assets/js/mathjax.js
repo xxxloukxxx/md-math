@@ -55,8 +55,8 @@ MathJax = {
         \nc{\Df}{\mathcal{D}_f}
         \nc{\Dfp}{\mathcal{D}_{f'}}
         \nc{\Rp}{\R^{+}}
-        \nc{\Ret}{\R-\{0\}}
-        \nc{\Rpe}{\R^{+}-\{0\}}
+        \nc{\Ret}{\R^{*}}
+        \nc{\Rpe}{\R^{+*}}
         \nc{\Dg}{\mathcal{D}_g}
         \nc{\pa}[1]{\left(#1\right)}
         \nc{\brace}[1]{\left\{#1\right\}}
