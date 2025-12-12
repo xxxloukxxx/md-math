@@ -1,5 +1,7 @@
 # Échantillonnage
 
+<!-- toc -->
+
 ## Notion d'échantillon
 
 ```admonish ex
