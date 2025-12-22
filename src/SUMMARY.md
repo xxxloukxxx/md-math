@@ -36,7 +36,7 @@
   - [Fonctions du 2nd degré](./1spe/Fonctions-2nd-degre.md)
   - [Nombre dérivé](./1spe/Derivation-1.md)
   - [Fonction dérivée](./1spe/Derivation-2.md)
-  - [Fonction exponentielles](./1spe/Fonction-exponentielle.md)
+  - [Fonction exponentielle](./1spe/Fonction-exponentielle.md)
   - [Suites numériques](./1spe/Suites-numeriques.md)
 - [Géométrie](./1spe/_geometrie.md)
   - [Produit scalaire](./1spe/Produit-scalaire.md)
