@@ -23,14 +23,12 @@ Si on suppose qu'un domino $n{^\circ}(k)$ tombe alors le domino suivant $n{^\cir
 ```
 
 ```admonish def
-
 On dit qu'une propriété est **héréditaire** à partir d'un certain rang :
 
 - Si la propriété est vraie pour un entier $k$ alors elle est vraie pour l'entier $k + 1$
 ```
 
 ```admonish prop title="Propriété : Principe du raisonnement par récurrence"
-
 Si la propriété $P$ est :
 
 - **Vraie** au rang $n_{0}$ (Initialisation),
@@ -40,19 +38,16 @@ Alors la propriété $P$ est vraie pour tout $n \geqslant n_{0}$.
 ```
 
 ```admonish ex
-
 Dans l'exemple, le premier domino tombe (initialisation). Ici $n_{0} = 1$.
 
 L'hérédité est vérifiée (voir plus haut). On en déduit que tous les dominos tombent.
 ```
 
 ```admonish rem
-
 On tente d'utiliser une démonstration par récurrence, lorsqu'une démonstration classique n'est pas possible ou est trop difficile.
 ```
 
 ```admonish meth title="Méthode : Démontrer une propriété par récurrence"
-
 :bulb: Démontrer par récurrence que pour tout $n$ non nul, on a : $\quad 2^{n} > n$.
 
 1. **Initialisation pour $n=1$ :** (Le premier domino tombe)
@@ -91,13 +86,11 @@ On tente d'utiliser une démonstration par récurrence, lorsqu'une démonstratio
 > La propriété est vraie pour $n = 1$ et héréditaire à partir de ce rang.
 >
 > D'après le principe de récurrence, elle est vraie pour $n$ non nul, soit : $2^{n} > n$.
-
 ```
 
 ### Exemples avec les suites
 
 ```admonish meth title="Méthode : Démontrer par récurrence l'expression générale d'une suite"
-
 On considère la suite $(u_n)$ définie pour tout entier naturel $n$ par :
 
 $$
@@ -145,11 +138,9 @@ $$
 > La propriété est vraie pour $n = 0$ et héréditaire à partir de ce rang.
 >
 > D'après le principe de récurrence, elle est vraie pour tout naturel $n$, soit : $u_{n} = (n + 1)^{2}$.
-
 ```
 
 ```admonish meth title="Méthode : Démontrer la monotonie par récurrence"
-
 On considère la suite $(u_n)$ définie pour tout entier naturel $n$ par :
 
 $$
@@ -195,23 +186,19 @@ Pour cela, on va démontrer que pour tout entier naturel $n$, on a : $u_{n + 1} 
 > La propriété est vraie pour $n = 0$ et héréditaire à partir de ce rang.
 >
 > D'après le principe de récurrence, elle est vraie pour tout naturel $n$, soit $u_{n + 1} \geqslant u_{n}$ et donc la suite $(u_n)$ est croissante.
-
 ```
 
 ### Inégalité de Bernoulli
 
 ```admonish prop
-
 Soit un nombre réel $a$ positif.
 
 Pour tout entier naturel $n$, on a :
 
 $$\boxed{(1 + a)^{n} \geqslant 1 + na}$$
-
 ```
 
 ```admonish demo
-
 1. **Initialisation :**
 
 > $$(1 + a)^{0} = 1\quad\text{et}\quad 1 + 0 \times a = 1$$
@@ -226,10 +213,6 @@ $$\boxed{(1 + a)^{n} \geqslant 1 + na}$$
 >
 > $$(1 + a)^{k} \geqslant 1 + ka$$
 >
-> - Démontrons que la propriété est vraie au rang $k + 1$, soit :
->
-> $$(1 + a)^{k + 1} \geqslant 1 + (k + 1)a$$
-
 > - Démontrons que la propriété est vraie au rang $k + 1$, soit :
 >
 > $$(1 + a)^{k + 1} \geqslant 1 + (k + 1)a$$
@@ -254,11 +237,9 @@ $$\boxed{(1 + a)^{n} \geqslant 1 + na}$$
 > D'après le principe de récurrence, elle est vraie pour tout $n$ soit :
 >
 > $$(1 + a)^{n} \geqslant 1 + na$$
-
 ```
 
 ```admonish warning title="Le rôle de l'initialisation dans une démonstration par récurrence"
-
 L'initialisation (le 1$^\text{er}$ domino tombe) est indispensable dans une démonstration par récurrence, sinon on peut démontrer des propriétés fausses !
 
 En effet, démontrons par exemple que la propriété "$2^{n}$ est divisible par $3$" est héréditaire sans vérifier l'initialisation.
@@ -283,7 +264,6 @@ $$
 Donc $2^{k + 1}$ est divisible par $3$.
 
 L'hérédité est vérifiée et pourtant la propriété n'est jamais vraie.
-
 ```
 
 ## Limite finie ou infinie d'une suite
@@ -316,7 +296,6 @@ les termes de la suite à partir d'un certain rang.
 ```
 
 ```admonish def
-
 - On dit que la suite $(u_n)$ admet pour limite $+ \infty$ si tout intervalle $\rbrack a;+\infty\lbrack$ contient tous les termes de la suite à partir d'un certain rang et on note :
 
 $$\limite_{n \to +\infty}{u_{n} = + \infty}$$
@@ -324,7 +303,6 @@ $$\limite_{n \to +\infty}{u_{n} = + \infty}$$
 - On dit que la suite $(u_n)$ admet pour limite $- \infty$ si tout intervalle $\rbrack -\infty;b\lbrack$ contient tous les termes de la suite à partir d'un certain rang et on note :
 
 $$\limite_{n \to +\infty}{u_{n} = - \infty}$$
-
 ```
 
 ```admonish ex title="Algorithme de seuil"
@@ -351,25 +329,22 @@ A partir du terme $u_{3}$, les termes de la suite dépassent $100$.
 
 Les programmes correspondants dans différents langages :
 
-|                    TI                     |                       Casio                        |                       Python                       |
-| :---------------------------------------: | :------------------------------------------------: | :------------------------------------------------: |
-| ![](img/suites/image7tt.png =300x center) | ![width:6cm](img/suites/image8tt.png =300x center) | ![width:6cm](img/suites/image9tt.png =300x center) |
+|                    TI                     |                   Casio                   |                  Python                   |
+| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+| ![](img/suites/image7tt.png =300x center) | ![](img/suites/image8tt.png =300x center) | ![](img/suites/image9tt.png =300x center) |
 ```
 
 ### Limite finie
 
 ```admonish def
-
 On dit que la suite $(u_n)$ admet pour **limite** $\mathbf{L}$, si $u_{n}$ est aussi proche de $L$ que l'on veut à partir d'un certain rang et on note :
 
 $$\boxed{\limite_{n \to +\infty}{u_{n} = L}}$$
 
 Une telle suite est dite **convergente**.
-
 ```
 
 ```admonish ex
-
 La suite $(u_n)$ définie pour tout $n$ non nul par :
 
 $$u_{n} = 1 +\frac{1}{n^{2}}$$
@@ -386,11 +361,9 @@ Les termes de la suite se resserrent autour de $1$ à partir d'un certain rang.
 Si on prend un intervalle ouvert quelconque contenant $1$, tous les termes de la suite appartiennent à cet intervalle à partir d'un certain rang.
 
 ![](img/suites/image12.png =400x center)
-
 ```
 
 ```admonish def
-
 On dit que la suite $(u_n)$ admet pour limite $L$ si tout intervalle ouvert contenant $L$ contient tous les termes de la suite à partir d'un certain rang et on note :
 
 $$\boxed{\limite_{n \to +\infty}{u_{n} = L}}$$
@@ -399,12 +372,10 @@ $$\boxed{\limite_{n \to +\infty}{u_{n} = L}}$$
 ```
 
 ```admonish def
-
 Une suite qui n'est pas convergente est dite **divergente**.
 ```
 
 ```admonish rem
-
 Une suite qui est divergente n'admet pas nécessairement de limite infinie.
 
 Par exemple, la suite de terme générale $u_n=(-1)^{n}$ prend alternativement les valeurs $-1$ et $1$.
@@ -415,7 +386,6 @@ Elle n'admet donc pas de limite finie, ni infinie. Elle est donc **divergente**.
 ### Limites des suites usuelles
 
 ```admonish prop
-
 $$
 	\begin{array}{|c|c|}\hline
 		\rule[-5mm]{0cm}{13mm}\limite_{n \to + \infty}{{n} = + \infty}        & \limite_{n \to + \infty}{{\dfrac{1}{n}} = 0}        \\\\ \hline
@@ -446,7 +416,6 @@ $$\limite_{n \to + \infty}{\frac{1}{n} = 0}$$
 ### Utiliser les propriétés des opérations sur les limites
 
 ```admonish prop title="Somme"
-
 $$
 	\begin{array}{|r|c|c|c|c|c|c|}\hline
 		\rule[-4mm]{0cm}{9mm}\limite_{n\to +\infty}{u_{n} =}       & L    & L       & L       & +\infty & -\infty & +\infty       \\\\ \hline
@@ -456,11 +425,9 @@ $$
 $$
 
 $^*$Forme indéterminée : On ne peut pas prévoir la limite éventuelle.
-
 ```
 
 ```admonish prop title="Produit"
-
 $$
 	\begin{array}{|r|c|c|c|c|}\hline
 		\rule[-4mm]{0cm}{9mm}\limite_{n\to +\infty}{u_{n} =}             & L          & L        & \infty   & 0           \\\\ \hline
@@ -473,7 +440,6 @@ $^*$On applique la règle des signes pour déterminer si le produit est $+\infty
 ```
 
 ```admonish prop title="Quotient"
-
 $$
 	\begin{array}{|r|c|c|c|c|c|c|}\hline
 		\rule[-4mm]{0cm}{9mm}\limite_{n\to +\infty}{u_{n} =}            & L             & L\neq 0  & L      & \infty   & \infty      & 0           \\\\ \hline
@@ -485,11 +451,9 @@ $$
 $^*$On applique la règle des signes pour déterminer si le produit est $+\infty$ ou $-\infty$.
 
 Tous ces résultats sont intuitifs. On retrouve par exemple, un principe sur les opérations de limite semblable à la règle des signes établie sur les nombres relatifs.
-
 ```
 
 ```admonish meth title="Méthode : Calculer la limite d'une suite à l'aide des formules d'opération"
-
 :bulb: Calculer les limites :
 
 1. $\limite_{n \to + \infty}\left(n^{2} + n\right)$
@@ -536,17 +500,14 @@ Tous ces résultats sont intuitifs. On retrouve par exemple, un principe sur les
 ```
 
 ```admonish rem title="Cas des formes indéterminées"
-
 Il est important de reconnaître les formes indéterminées pour lesquelles il faudra utiliser des calculs algébriques ou utiliser d'autres propriétés sur les calculs de limites afin de lever l'indétermination.
 
 Les quatre **formes indéterminées** à reconnaître sont :
 
 $$\boxed{\infty - \infty}\qquad\boxed{0 \times \infty}\qquad\boxed{\frac{\infty}{\infty}}\qquad\boxed{\frac{0}{0}}$$
-
 ```
 
 ```admonish meth title="Méthode : Lever une indétermination à l'aide d'une factorisation (1)"
-
 :bulb: Déterminer les limites suivantes :
 
 1. $\limite_{n \to + \infty}\pa{ n - 3\sqrt{n}}$
@@ -587,11 +548,9 @@ $$\boxed{\infty - \infty}\qquad\boxed{0 \times \infty}\qquad\boxed{\frac{\infty}
 > Donc, comme limite d'un produit :
 >
 > $$\limite_{n \to + \infty}{n^{2}\left( 1 - \dfrac{5}{n} + \dfrac{1}{n^{2}} \right)} = + \infty\quad\iff\quad\limite_{n \to + \infty}\pa{ n^{2} - 5n + 1} = + \infty$$
-
 ```
 
 ```admonish meth title="Méthode : Lever une indétermination à l'aide de factorisations (2)"
-
 :bulb: Déterminer les limites suivantes :
 
 1. $\limite_{n \to + \infty}\left(\dfrac{5n^{2} + 4}{4n^{2} + 3n}\right)$
@@ -632,11 +591,9 @@ $$\boxed{\infty - \infty}\qquad\boxed{0 \times \infty}\qquad\boxed{\frac{\infty}
 > Donc, comme limite d'un produit :
 >
 > $\limite_{n \to + \infty}\left(n \times\frac{3 + \frac{1}{n}}{1 + \frac{3}{n}}\right)= + \infty\quad\iff\limite_{n \to + \infty}\left(\frac{3n^{2} + n}{n + 3}\right)= + \infty$
-
 ```
 
 ```admonish meth title="Méthode : Lever une indétermination à l'aide de l'expression conjuguée"
-
 :bulb: Déterminer la limite : $\limite_{n \to + \infty}{\sqrt{n + 2} - \sqrt{n}}$
 
 > On a : $\begin{cases}\limite_{n \to + \infty}{\sqrt{n + 2} = + \infty} \\\\ \limite_{n \to + \infty}{\sqrt{n} = + \infty}\end{cases}\quad$ Il s'agit d'une F.I. du type $\boxed{\infty - \infty}$
@@ -657,5 +614,4 @@ $$\boxed{\infty - \infty}\qquad\boxed{0 \times \infty}\qquad\boxed{\frac{\infty}
 > Et donc, comme limite d'un quotient :
 >
 > $$\limite_{n \to + \infty}\dfrac{2}{\sqrt{n + 2} + \sqrt{n}}= 0\quad\iff\limite_{n \to + \infty}{\sqrt{n + 2} - \sqrt{n}} = 0$$
-
 ```
