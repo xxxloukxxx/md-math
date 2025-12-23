@@ -66,6 +66,7 @@ MathJax = {
         \nc{\overarc}[1]{\overset{\huge\frown}{#1}}
         \rnc{\bar}[1]{\overline{#1}}
         \rnc{\iff}{\Leftrightarrow}
+        \rnc{\limite}{\lim\limits}
         \nc{\Lrarr}{\Leftrightarrow}
         \nc{\Rarr}{\Rightarrow}
         \nc{\rarr}{\rightarrow}
