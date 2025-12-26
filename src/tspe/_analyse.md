@@ -8,5 +8,6 @@
 - [Fonction logarithme](./Fonction-logarithme.md)
 - [Limites](./Limites.md)
 - [Primitive et équation différientielle](./Primitives-Eq-diff.md)
-- [Calcul intégral](./Calcul-integral.md)
+- [Calcul intégral (1)](./Calcul-integral-1.md)
+- [Calcul intégral (2)](./Calcul-integral-2.md)
 

@@ -67,6 +67,8 @@ MathJax = {
         \rnc{\bar}[1]{\overline{#1}}
         \rnc{\iff}{\Leftrightarrow}
         \rnc{\limite}{\lim\limits}
+        \rnc{\dint}{\displaystyle\int}
+        \rnc{\less}{\lt}
         \nc{\Lrarr}{\Leftrightarrow}
         \nc{\Rarr}{\Rightarrow}
         \nc{\rarr}{\rightarrow}
