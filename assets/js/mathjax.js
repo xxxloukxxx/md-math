@@ -4,6 +4,7 @@ MathJax = {
       "[tex]/autoload",
       "[tex]/physics",
       "[tex]/mathtools",
+      "[tex]/colortbl",
       "[tex]/ams",
       "[tex]/cases",
       "[tex]/textmacros",
@@ -14,6 +15,7 @@ MathJax = {
       "autoload",
       "base",
       "cases",
+      "colortbl",
       "physics",
       "ams",
       "mathtools",
@@ -61,6 +63,8 @@ MathJax = {
         \nc{\pa}[1]{\left(#1\right)}
         \nc{\brace}[1]{\left\{#1\right\}}
         \nc{\brack}[1]{\left[#1\right]}
+        \nc{\prim}{^{\prime}}
+        \nc{\pprim}{^{\prime\prime}}
         \nc{\coord}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
         \nc{\coordl}[2]{\left(#1~;~#2\right)}
         \nc{\overarc}[1]{\overset{\huge\frown}{#1}}

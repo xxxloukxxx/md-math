@@ -1,0 +1,27 @@
+:%s/^#/##/g
+:g/cimg/norm /\.yi}o![](jkpA =350x center)
+:%s/lim\\limits/limite/g
+:%s/\\ms//g
+:%s/\\faLightbulbO/:bulb:/g
+:%s/\\frac/\\cfrac/g
+:%s/\\dfrac/\\cfrac/g
+:%s/^\\correction/---/g
+:%s/^\\definition/---- admo def/g
+:%s/^\\exemple/---- admo ex/g
+:%s/^\\methode/---- admo meth/g
+:g/meth \\ul/norm tuxxxcs}"ititle="Méthode : jklx
+:%s/^\\rem/---- admo rem/g
+:%s/^\\prop/---- admo prop/g
+:%s/^\\theoreme/---- admo th/g
+:%s/^\\demo/---- admo demo/g
+:g/arraystretch/d
+:g/\\newpage/d
+:g/\\ms/d
+:%s/\$\~\$//g
+:%s/\~/\\ /g
+:%s/\\\\/\\\\\\\\/g
+:%s/Lrarr/iff/g
+:%s/less/lt/g
+:%s/\\mathbb{R}/\\R/g
+:%s/^\\vspace{...}//g
+
