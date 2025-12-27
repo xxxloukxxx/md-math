@@ -24,4 +24,8 @@
 :%s/less/lt/g
 :%s/\\mathbb{R}/\\R/g
 :%s/^\\vspace{...}//g
+:%s/Leftrightarrow/iff/g
+
+
+
 
