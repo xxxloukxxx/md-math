@@ -20,7 +20,7 @@ Soit la fonction $f$ définie sur $\left\lbrack \cfrac{1}{2}\ ;\ +\infty \right\
 
 ## Limites et comparaisons
 
-### Théorèmes de comparaison
+### Théorème de comparaison
 
 ```admonish th
 Soit $f$ et $g$ deux fonctions définies sur un intervalle $I = \left\rbrack a; +\infty \right\lbrack$.
