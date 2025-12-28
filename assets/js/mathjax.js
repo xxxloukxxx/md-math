@@ -38,6 +38,13 @@ MathJax = {
       MathJax.startup.defaultReady();
       const { STATE } = MathJax._.core.MathItem;
       MathJax.tex2mml(String.raw`
+        \def\euro{\unicode{x20AC}}
+        \def\diceone{\Large\unicode{x2680}\normalsize}
+        \def\dicetwo{\Large\unicode{x2681}\normalsize}
+        \def\dicethree{\Large\unicode{x2682}\normalsize}
+        \def\dicefour{\Large\unicode{x2683}\normalsize}
+        \def\dicefive{\Large\unicode{x2684}\normalsize}
+        \def\dicesix{\Large\unicode{x2685}\normalsize}
         \let\nc\newcommand
         \let\rnc\newcommand
         \let\le\leqslant

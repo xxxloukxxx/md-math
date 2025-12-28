@@ -1,0 +1,7 @@
+:%s/----admo/```admonish/g
+:%s/---- admo/```admonish/g
+:%s/----eadmo/```/g
+:%s/---- eadmo/```/g
+:g/^$\n```/d
+:g/```admonish.*\n\n/norm jdd
+:Neoformat

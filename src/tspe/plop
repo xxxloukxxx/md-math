@@ -25,7 +25,11 @@
 :%s/\\mathbb{R}/\\R/g
 :%s/^\\vspace{...}//g
 :%s/Leftrightarrow/iff/g
-
-
-
-
+:%s/\\left\\{/\\brace{/g 
+:%s/\\right\\}/}/g 
+:%s/\\text{\\euro{}}/\\euro/g
+:%s/\\brac{/\\brace{/g
+:%s/\\ul{/**/g
+:%s/^>//g
+:Autoformat
+:Neoformat
