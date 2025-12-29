@@ -27,14 +27,13 @@ $$
 
 
 ````admonish
-![](https://picsum.photos/800/600#right =400x)
-
 Pour aligner à droite :
 
 ```
-![](https://picsum.photos/800/600#right =400x)
+![](https://picsum.photos/800/600#right =200x)
 ```
 
+![](https://picsum.photos/800/600#right =200x)
 ````
 
 ### Du code
@@ -107,8 +106,8 @@ xychart-beta
     title "Sales Revenue"
     x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
     y-axis "Revenue (in $)" 4000 --> 11000
-    bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
-    line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+    bar [5000, 6000, 7500, 8200, 9500, 5000, 11000, 10200, 9200, 8500, 7000, 6000]
+    line [5000, 6000, 7500, 8200, 9500, 5000, 11000, 10200, 9200, 8500, 7000, 6000]
 ```
 
 ```mermaid
@@ -125,7 +124,7 @@ mindmap
         Uses
             Creative techniques
             Strategic planning
-            Argument mapping
+            Argument mapping x=2
     Tools
       Pen and paper
       Mermaid
