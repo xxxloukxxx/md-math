@@ -70,9 +70,9 @@
   - [Loi des grands nombres (2)](./tspe/Loi-des-grands-nombres-2.md)
 - [Géométrie](./tspe/_geometrie.md)
   - [Trigonométrie](./tspe/Trigonometrie.md)
+  - [Vecteurs droites et plans](./tspe/Vecteurs-droites-et-plans.md)
   - [Représentation paramétrique / équation cartésienne](./tspe/Representation-parametrique-equation-cartesienne.md)
   - [Orthogonalité dans l'espace](./tspe/Orthogonalite-dans-l-espace.md)
-  - [Vecteurs droites et plans](./tspe/Vecteurs-droites-et-plans.md)
 
 # Sandbox
 

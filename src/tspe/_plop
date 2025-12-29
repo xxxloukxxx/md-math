@@ -1,5 +1,5 @@
 :%s/^#/##/g
-:g/cimg/norm /\.yi}o![](jkpA =350x center)
+:g/cimg/norm /{img\/wyi}o![](jkpA =350x center)
 :%s/lim\\limits/limite/g
 :%s/\\ms//g
 :%s/\\faLightbulbO/:bulb:/g
@@ -31,5 +31,6 @@
 :%s/\\brac{/\\brace{/g
 :%s/\\ul{/**/g
 :%s/^>//g
+:g/---- admo/norm O---- eadmo
 :Autoformat
 :Neoformat
