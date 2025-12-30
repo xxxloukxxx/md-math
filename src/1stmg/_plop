@@ -18,6 +18,7 @@
 :g/\\newpage/d
 :g/\\ms/d
 :%s/\$\~\$//g
+:%s/\$\\quad\$//g
 :%s/\~/\\ /g
 :%s/\\\\/\\\\\\\\/g
 :%s/Lrarr/iff/g
@@ -32,6 +33,7 @@
 :%s/\\ul{/**/g
 :%s/^>//g
 :g/---- admo/norm O---- eadmo
+:g/\\cimg/d
 :Autoformat
 :Neoformat
 :w

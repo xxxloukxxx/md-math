@@ -57,7 +57,8 @@
   - [Suites numériques](./1stmg/Suites-numeriques.md)
   - [Suites arithmétiques / géométriques](./1stmg/Suites-arith-geo.md)
   - [Généralités sur les fonctions](./1stmg/Generalites-sur-les-fonctions.md)
-  - [Fonctions 2nd degré](./1stmg/Fonctions-2nd-degre.md)
+  - [Fonctions 2nd degré (1)](./1stmg/Fonctions-2nd-degre-1.md)
+  - [Fonctions 2nd degré (2)](./1stmg/Fonctions-2nd-degre-2.md)
   - [Fonctions 3ème degré](./1stmg/Fonctions-3eme-degre.md)
   - [Dérivation](./1stmg/Derivation.md)
 - [Probabilité](./1stmg/_proba.md)
@@ -65,7 +66,6 @@
   - [Variables aléatoires](./1stmg/Variables-aleatoires.md)
   - [Loi de Bernoulli](./1stmg/Loi-de-Bernoulli.md)
   - [Échantillonnage](./1stmg/Echantillonnage.md)
-
 
 ---
 

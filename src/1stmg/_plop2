@@ -5,3 +5,4 @@
 :g/^$\n```/d
 :g/```admonish.*\n\n/norm jdd
 :Neoformat
+:w
