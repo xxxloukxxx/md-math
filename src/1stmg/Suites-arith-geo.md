@@ -97,8 +97,8 @@ $$u_{n} = 3 + 5n\qquad\text{et}\qquad(v_n):\begin{cases}v_{0} = -3 \\\\ v_{n + 1
 
 ### Représentation graphique
 
-```admonish prop Les points de la représentation graphique d'une suite arithmétique sont **alignés**.
-
+```admonish prop
+Les points de la représentation graphique d'une suite arithmétique sont **alignés**.
 ```
 
 ```admonish ex
