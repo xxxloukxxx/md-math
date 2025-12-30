@@ -1,0 +1,1 @@
+# Suites arithmétiques / géométriques

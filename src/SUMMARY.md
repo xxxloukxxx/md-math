@@ -48,6 +48,27 @@
 
 ---
 
+# 1$^\text{ère}~$ Technologique
+
+- [Nombres et calculs](./1stmg/_nombres-et-calculs.md)
+  - [Proportion](./1stmg/Proportion.md)
+  - [Évolution](./1stmg/Evolution.md)
+- [Analyse](./1stmg/_analyse.md)
+  - [Suites numériques](./1stmg/Suites-numeriques.md)
+  - [Suites arithmétiques / géométriques](./1stmg/Suites-arith-geo.md)
+  - [Généralités sur les fonctions](./1stmg/Generalites-sur-les-fonctions.md)
+  - [Fonctions 2nd degré](./1stmg/Fonctions-2nd-degre.md)
+  - [Fonctions 3ème degré](./1stmg/Fonctions-3eme-degre.md)
+  - [Dérivation](./1stmg/Derivation.md)
+- [Probabilité](./1stmg/_proba.md)
+  - [Probabilité conditionnelle](./1stmg/Probabilite-conditionnelle.md)
+  - [Variables aléatoires](./1stmg/Variables-aleatoires.md)
+  - [Loi de Bernoulli](./1stmg/Loi-de-Bernoulli.md)
+  - [Échantillonnage](./1stmg/Echantillonnage.md)
+
+
+---
+
 # T$^\text{ale}$ Spécialité
 
 - [Analyse](./tspe/_analyse.md)
