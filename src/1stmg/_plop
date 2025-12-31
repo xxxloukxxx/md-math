@@ -32,6 +32,12 @@
 :%s/\\brac{/\\brace{/g
 :%s/\\ul{/**/g
 :%s/^>//g
+:%s/epsdice{1}/diceone/g
+:%s/epsdice{2}/dicetwo/g
+:%s/epsdice{3}/dicethree/g
+:%s/epsdice{4}/dicefour/g
+:%s/epsdice{5}/dicefive/g
+:%s/epsdice{6}/dicesix/g
 :g/---- admo/norm O---- eadmo
 :g/\\cimg/d
 :Autoformat
