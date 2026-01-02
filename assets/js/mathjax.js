@@ -38,6 +38,9 @@ MathJax = {
       MathJax.startup.defaultReady();
       const { STATE } = MathJax._.core.MathItem;
       MathJax.tex2mml(String.raw`
+        \def\er{^{\text{er}}}
+        \def\eme{^{\text{ème}}}
+        \def\nd{^{\text{nd}}}
         \def\euro{\unicode{x20AC}}
         \def\diceone{\Large\unicode{x2680}\normalsize}
         \def\dicetwo{\Large\unicode{x2681}\normalsize}
