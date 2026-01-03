@@ -1,8 +1,8 @@
+![](./math.jpg#right =400x)
+
 # Math au lycée
 
 Des math pour les lycéens
-
-![](./math.jpg =700x center)
 
 ## 2$^\text{nde}$
 
