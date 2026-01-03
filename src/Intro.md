@@ -1,11 +1,18 @@
-![](./math.jpg#right =400x)
+# Introduction
 
-# Math au lycée
+![](./math.jpg#right =300x)
 
-Des math pour les lycéens
+Que tu sois en seconde, première ou en terminale, ce site est là pour t’accompagner dans ton apprentissage des mathématiques.
 
-## 2$^\text{nde}$
+Tu y trouveras des cours détaillés et des méthodes pour maîtriser chaque notion.
 
+L’objectif : t’aider à progresser efficacement et à aborder les mathématiques avec confiance, peu importe le niveau que tu vises.
+
+---
+
+# Sommaire
+
+```admonish demo title="2<sup>nde</sup>" collapsible=true
 - [Nombres et calculs](./2nde/_nombres-et-calculs.md)
   - [Calcul numérique et algébrique](./2nde/Calcul-algebrique.md)
   - [Ensembles de nombres](./2nde/Ensembles-de-nombres.md)
@@ -27,11 +34,11 @@ Des math pour les lycéens
   - [Vecteurs et colinéarité](./2nde/Vecteurs-et-colinearite.md)
   - [Droites du plan](./2nde/Droites-du-plan.md)
   - [Droites et systèmes](./2nde/Droites-et-systemes.md)
+```
 
 ---
 
-## 1$^\text{ère}~$ Spécialité
-
+```admonish demo title="1<sup>ère</sup> Spécialité" collapsible=true
 - [Analyse](./1spe/_analyse.md)
   - [Fonctions du 2nd degré](./1spe/Fonctions-2nd-degre.md)
   - [Nombre dérivé](./1spe/Derivation-1.md)
@@ -45,11 +52,11 @@ Des math pour les lycéens
 - [Probabilité](./1spe/_proba.md)
   - [Probabilité conditionnelle](./1spe/Probabilite-conditionnelle.md)
   - [Variable aléatoire](./1spe/Variable-aleatoire.md)
+```
 
 ---
 
-## 1$^\text{ère}~$ Technologique
-
+```admonish demo title="1<sup>ère</sup> Technologique" collapsible=true
 - [Nombres et calculs](./1stmg/_nombres-et-calculs.md)
   - [Proportion](./1stmg/Proportion.md)
   - [Évolution](./1stmg/Evolution.md)
@@ -66,11 +73,11 @@ Des math pour les lycéens
   - [Variables aléatoires](./1stmg/Variables-aleatoires.md)
   - [Loi de Bernoulli](./1stmg/Loi-de-Bernoulli.md)
   - [Échantillonnage](./1stmg/Echantillonnage.md)
+```
 
 ---
 
-## T$^\text{ale}$ Spécialité
-
+```admonish demo title="T<sup>ale</sup> Spécialité" collapsible=true
 - [Analyse](./tspe/_analyse.md)
   - [Suites numériques (1)](./tspe/Suites-1.md)
   - [Suites numériques (2)](./tspe/Suites-2.md)
@@ -94,3 +101,21 @@ Des math pour les lycéens
   - [Vecteurs droites et plans](./tspe/Vecteurs-droites-et-plans.md)
   - [Représentation paramétrique / équation cartésienne](./tspe/Representation-parametrique-equation-cartesienne.md)
   - [Orthogonalité dans l'espace](./tspe/Orthogonalite-dans-l-espace.md)
+```
+
+---
+
+```admonish demo title="T<sup>ale</sup> Technologique" collapsible=true
+- [Analyse](./tstmg/_analyse.md)
+  - [Suites numériques (1)](./tstmg/Suites-numeriques-1.md)
+  - [Suites numériques (2)](./tstmg/Suites-numeriques-2.md)
+  - [Fonctions exponentielles](./tstmg/Fonctions-exponentielles.md)
+  - [Fonction logarithme](./tstmg/Fonction-log.md)
+  - [Fonction inverse](./tstmg/Fonction-inverse.md)
+- [Probabilité](./tstmg/_proba.md)
+  - [Probabilités conditionnelles](./tstmg/Probabilites-conditionnelles.md)
+  - [Variables aléatoires et Loi binomiale (1)](./tstmg/Variables-aleatoires-Loi-binomiale-1.md)
+  - [Variables aléatoires et Loi binomiale (2)](./tstmg/Variables-aleatoires-Loi-binomiale-2.md)
+- [Statistiques](./tstmg/_stat.md)
+  - [Statistique à 2 variables](./tstmg/Statistique-2-variables.md)
+```

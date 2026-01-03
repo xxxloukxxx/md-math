@@ -95,6 +95,25 @@
   - [Représentation paramétrique / équation cartésienne](./tspe/Representation-parametrique-equation-cartesienne.md)
   - [Orthogonalité dans l'espace](./tspe/Orthogonalite-dans-l-espace.md)
 
+---
+
+# T$^\text{ale}$ Technologique
+
+- [Analyse](./tstmg/_analyse.md)
+  - [Suites numériques (1)](./tstmg/Suites-numeriques-1.md)
+  - [Suites numériques (2)](./tstmg/Suites-numeriques-2.md)
+  - [Fonctions exponentielles](./tstmg/Fonctions-exponentielles.md)
+  - [Fonction logarithme](./tstmg/Fonction-log.md)
+  - [Fonction inverse](./tstmg/Fonction-inverse.md)
+- [Probabilité](./tstmg/_proba.md)
+  - [Probabilités conditionnelles](./tstmg/Probabilites-conditionnelles.md)
+  - [Variables aléatoires et Loi binomiale (1)](./tstmg/Variables-aleatoires-Loi-binomiale-1.md)
+  - [Variables aléatoires et Loi binomiale (2)](./tstmg/Variables-aleatoires-Loi-binomiale-2.md)
+- [Statistiques](./tstmg/_stat.md)
+  - [Statistique à 2 variables](./tstmg/Statistique-2-variables.md)
+
+---
+
 # Sandbox
 
 - [Bac à sable](./_sandbox.md)
