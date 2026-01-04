@@ -95,8 +95,8 @@ On s'intéresse aux valeurs de $f(x)$ lorsque $x$ devient de plus en plus grand.
 
 $$
 \begin{array}{|r|c|c|c|c|c|}\hline
-x    & 5   & 10  & 100  & {10\ 000} & \ldots \\\\ \hline
-f(x) & 0.2 & 0.1 & 0.01 & {0.000\ 1} & \ldots \\\\ \hline
+	x    & 5   & 10  & 100  & {10\ 000}  & \ldots \\\\ \hline
+	f(x) & 0.2 & 0.1 & 0.01 & {0.000\ 1} & \ldots \\\\ \hline
 \end{array}
 $$
 
